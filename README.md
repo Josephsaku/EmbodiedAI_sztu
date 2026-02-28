@@ -14,7 +14,7 @@
 
 | **项目**          | **细节** |
 |-------------------|-------------|
-| **教师**    | 马漫游 <br> 助理教授, 深圳技术大学人工智能学院 <br> Email: [mamanyou@sztu.edu.cn](mailto:mamanyou@sztu.edu.cn) <br> 办公室: Room 1717, C1 (人工智能学院) <br> 答疑时间: 周六 2:00 pm - 3:00 pm (email to schedule) |
+| **教师**    | 马漫游 <br> 助理教授, 深圳技术大学 人工智能学院 <br> Email: [mamanyou@sztu.edu.cn](mailto:mamanyou@sztu.edu.cn) <br> 办公室: Room 1717, C1 (人工智能学院) <br> 答疑时间: 周一 2:00 pm - 3:00 pm |
 | **时间**      | 周六, 第六、七、八节 (14:00–16:25)   <br> |
 | **学分**       | 4 |
 | **评分**       | 出勤: 5% ; 实验报告: 15% ; 课程汇报: 20% ; 课程论文: 60% <br> |
