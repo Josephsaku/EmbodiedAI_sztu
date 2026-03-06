@@ -16,14 +16,14 @@
 |-------------------|-------------|
 | **教师**    | 马漫游 <br> 助理教授, 深圳技术大学 人工智能学院 <br> Email: [mamanyou@sztu.edu.cn](mailto:mamanyou@sztu.edu.cn) <br> 办公室: Room 1717, C1 (人工智能学院) <br> 答疑时间: 周一 2:00 pm - 3:00 pm |
 | **时间**      | 周六第六、七、八节 (14:00–16:25)   <br> |
-| **学分**       | 4 |
+| **学分**       |3 |
 | **评分**       | 出勤: 10% ; 实验报告: 50% ; 课程汇报: 10% ; 课程项目: 30% <br> |
 
 
 ### 课程资料
 | 周 | 课程序号 | 理论课程 | 实验内容 |
 |---|----------|-------------------|------------------------|
-| 01 (3月7日)|第1讲 | 强化学习基本概念 [幻灯片上](https://github.com/manyouma/EmbodiedAI_sztu/blob/main/lectures/%E5%85%B7%E8%BA%AB%E6%99%BA%E8%83%BD_%E7%AC%AC%E4%B8%80%E7%AB%A0_%E5%AE%8C%E6%95%B4%E7%89%88.pdf)[幻灯片下](https://github.com/MathFoundationRL/Book-Mathematical-Foundation-of-Reinforcement-Learning/blob/main/Lecture%20slides/slidesContinuouslyUpdated/L1-Basic%20concepts.pdf) | 强化学习实验环境搭建 [实验](https://github.com/manyouma/EmbodiedAI_sztu/blob/main/labs/Lab01_frozenLake_intro.ipynb)|
+| 01 (3月7日)|第1讲 | 强化学习基本概念 [幻灯片上](https://github.com/manyouma/EmbodiedAI_sztu/blob/main/lectures/%E5%85%B7%E8%BA%AB%E6%99%BA%E8%83%BD_%E7%AC%AC%E4%B8%80%E7%AB%A0_%E5%AE%8C%E6%95%B4%E7%89%88.pdf) [幻灯片下](https://github.com/MathFoundationRL/Book-Mathematical-Foundation-of-Reinforcement-Learning/blob/main/Lecture%20slides/slidesContinuouslyUpdated/L1-Basic%20concepts.pdf) | 强化学习实验环境搭建 [实验](https://github.com/manyouma/EmbodiedAI_sztu/blob/main/labs/Lab01_frozenLake_intro.ipynb)|
 | 02 (3月14日)|第2讲| 状态价值与贝尔曼方程 | 冰冻湖环境 I |
 | 03 (3月21日)|第3讲| 贝尔曼最优方程 | 冰冻湖环境 II |
 | 04 (3月28日)|第4讲| 价值迭代与策略迭代 | 冰冻湖环境 III |
