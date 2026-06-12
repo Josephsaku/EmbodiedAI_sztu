@@ -126,7 +126,7 @@ def main():
     parser.add_argument(
         "--model",
         type=str,
-        default="ddpg_hopper_actor_class.pth",
+        default="labs/ddpg_hopper_actor_class.pth",
         help="训练好的 Actor 模型路径",
     )
     parser.add_argument(
@@ -174,13 +174,22 @@ def main():
     act_dim = env_eval.action_space.shape[0]
     max_action = float(env_eval.action_space.high[0])
 
-    # 加载模型
+    # 加载模型（支持自动在 labs/ 目录下搜索）
     actor = Actor(obs_dim, act_dim, max_action).to(device)
-    if not os.path.exists(args.model):
-        raise FileNotFoundError(f"找不到模型文件: {args.model}，请先完成训练。")
-    actor.load_state_dict(torch.load(args.model, map_location=device))
+    model_path = args.model
+    if not os.path.exists(model_path):
+        # 尝试在项目根目录的 labs/ 子目录中查找
+        alt_path = os.path.join("labs", os.path.basename(model_path))
+        if os.path.exists(alt_path):
+            model_path = alt_path
+    if not os.path.exists(model_path):
+        raise FileNotFoundError(
+            f"找不到模型文件: {args.model}，请先完成训练。"
+            f"也可通过 --model 指定正确路径。"
+        )
+    actor.load_state_dict(torch.load(model_path, map_location=device))
     actor.eval()
-    print(f"已加载模型: {args.model}")
+    print(f"已加载模型: {model_path}")
 
     # 评估
     print(f"\n开始评估 {args.episodes} 个回合...")
