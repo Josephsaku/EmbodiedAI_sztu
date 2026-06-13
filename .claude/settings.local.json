@@ -1,0 +1,15 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(conda env *)",
+      "Bash(conda info *)",
+      "Bash(python *)",
+      "Bash(conda list *)",
+      "Bash(pip list *)",
+      "Bash(conda activate *)",
+      "Bash(pip show *)",
+      "Bash(conda create *)",
+      "Bash(conda run *)"
+    ]
+  }
+}
