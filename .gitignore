@@ -209,3 +209,19 @@ __marimo__/
 data/
 
 .DS_Store
+
+# Reinforcement learning training artifacts
+# Model weights, checkpoints, TensorBoard logs, and generated visualizations
+labs/checkpoints/
+labs/tb_logs/
+labs/tb_logs_compare/
+*.pth
+*.zip
+*.gif
+*.png
+*.jpg
+*.jpeg
+reports/*.gif
+reports/*.png
+reports/*.jpg
+reports/*.jpeg
